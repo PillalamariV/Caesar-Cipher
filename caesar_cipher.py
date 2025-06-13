@@ -21,7 +21,6 @@ def decryption(message, shift):
         else:
             old_message += x
     print(old_message)
-decryption("wtaad ldgas!", 15)
 
 choice = input("Type 'encode' to encrypt, type'decode' to decrypt: ")
 message = input("Type the message: ")
