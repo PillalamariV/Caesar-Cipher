@@ -22,6 +22,7 @@ def decryption(message, shift):
             old_message += x
     print(old_message)
 
+# this just for basic input
 choice = input("Type 'encode' to encrypt, type'decode' to decrypt: ")
 message = input("Type the message: ")
 shift = int(input("Type shift number: "))
